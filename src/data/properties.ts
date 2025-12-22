@@ -4,25 +4,25 @@ import React from 'react';
   {
     id: 1,
     title: "5 Marla House",
-    location: "bhawana",
-    price: "55 lakh demand",
+    location: "Bhawana",
+    price: "55 Lakh Demand",
   },
   {
     id: 2,
     title: "10 Marla Plot",
-    location: "bypas raod bhawana",
+    location: "Bypas Raod Bhawana",
     price: "35 Lakh",
   },
   {
     id: 3,
     title: "4 Marla Plot",
-    location: "ameen pur raod bhawana",
+    location: "Ameen pur Raod Bhawana",
     price: "30 Lakh",
   },
   {
     id: 4,
-    title: "5 Marla sakni Plot",
-    location: "bilmuqabil zafar bhoto jappa petrolpump bhawana",
+    title: "5 Marla Sakni Plot",
+    location: "Bilmuqabil Zafar Bhoto jappa Petrolpump Bhawana",
     price: "35 Lakh",
 
   },

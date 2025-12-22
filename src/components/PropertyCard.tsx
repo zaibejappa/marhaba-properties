@@ -1,3 +1,4 @@
+import { TextAlignCenter } from 'lucide-react';
 import React from 'react'
         type Props = {
   title: string;
@@ -7,9 +8,9 @@ import React from 'react'
 
 export default function PropertyCard({ title, location, price }: Props) {
   return (
-    <div style={{fontSize:"1.2rem", border: "1px solid #bbb8c3ff", padding: "25px",fontWeight: "bold", display: "flex", alignItems:
-     "center", gap: "20px",background: "rgba(59, 65, 152, 1)" }}> 
-      <h3>{title}</h3>
+    <div style={{fontSize:"1.4rem", border:"1px solid #b3b5acff", padding: "25px",color:"#bae01eff",fontWeight: "bold", display: "flex", alignItems:
+    "center", gap: "15px",background: "rgba(59, 65, 152, 1)" }}> 
+      <h6>{title}</h6>
       <p>{location}</p>
       <strong>{price}</strong>
     </div>

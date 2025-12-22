@@ -44,7 +44,7 @@ export default function AboutPage() {
       {/* 2. Main Content Card (Marhaba Properties Section) */}
       <div style={cardStyle}>
         <h2 style={{fontSize: "2.5rem", color: "#bae01eff", marginBottom: "20px",fontWeight: "bold",}}>Welcome to Marhaba Properties</h2>
-        <p style={{ lineHeight: "1.8", fontSize: "1.4rem", color: "#cbd5e1" }}>
+        <p style={{ lineHeight: "1.8", fontSize: "1.4rem", color: "#d1d6dbff" }}>
           Real estate market mein hum yahan aapki madad ke liye maujood hain. 
           Chahe aap apni dream shop khareedna chahte hon ya plots mein investment ka irada rakhte hon, 
           Property se mutaliq kisi bhi maslay ya mashwaray ke liye hamare paas zaroor ayein. 

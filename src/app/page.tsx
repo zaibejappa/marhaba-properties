@@ -11,13 +11,13 @@ const Myfunction= () => {}
       alignItems: "center", 
       textAlign: "center",
       fontFamily: "Arial, sans-serif",
-      backgroundColor: "#f9f9f9",
-      minHeight: "100vh"
+      background: "linear-gradient(135deg, #0c1e25ff, #0c1f25ff, #16272fff)",
+      minHeight: "100vh",
     }}>
       {/* Main Heading */}
       <h1 style={{ 
         fontSize: "3rem", 
-        color: "#1a202c", 
+        color: "#bae01eff", 
         marginBottom: "20px",
         fontWeight: "bold" 
       }}>
@@ -26,10 +26,10 @@ const Myfunction= () => {}
 
       {/* Identity Line - Elegant Style */}
       <p style={{ 
-        fontSize: "1.2rem", 
-        color: "#4a5568", 
-        maxWidth: "700px", 
-        lineHeight: "1.6",
+        fontSize: "1.5rem", 
+        color: "#d6d9dfff", 
+        maxWidth: "900px", 
+        lineHeight: "2.6",
         fontStyle: "italic",
         borderBottom: "2px solid #e2e8f0",
         paddingBottom: "20px",
@@ -42,19 +42,19 @@ const Myfunction= () => {}
 
       {/* Highlighted Section - The Best Options */}
       <div style={{
-        backgroundColor: "#ffffff",
+        backgroundColor: "#2f279cff",
         padding: "30px",
         borderRadius: "15px",
-        boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
+        boxShadow: "0 4px 6px rgba(150, 133, 133, 0.1)",
         maxWidth: "600px"
       }}>
-        <h2 style={{ color: "#2c3d5bff", marginBottom: "10px" }}>
+        <h2 style={{fontSize: "4.2rem", color: "#bae01eff", marginBottom: "10px" }}>
           Premium Selection
         </h2>
         <p style={{ 
-          fontSize: "1.1rem", 
-          color: "#2c5282", 
-          fontWeight: "600" 
+          fontSize: "2.1rem", 
+          color: "#b3bbc5ff", 
+          fontWeight: "500" 
         }}>
           The best options are availabe accourding to your need and budget.
         </p>
