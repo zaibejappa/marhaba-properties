@@ -1,8 +1,9 @@
 import React from 'react'
 
 export default function AboutPage() {
-  
-  const containerStyle = { 
+
+  const containerStyle: React.CSSProperties= {
+     textAlign: 'center',
     minHeight: "100vh",
     padding: "60px 20px",
     background: "linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #1e1b4b 100%)",
@@ -13,7 +14,7 @@ export default function AboutPage() {
     alignItems: "center"
 };
 
-  const cardStyle = {
+  const cardStyle:React.CSSProperties = {
     background: "rgba(255, 255, 255, 0.05)",
     backdropFilter: "blur(12px)",
     borderRadius: "20px",
@@ -26,7 +27,7 @@ export default function AboutPage() {
     transition: "transform 0.3s ease"
   };
 
-  const titleStyle = {
+  const titleStyle:React.CSSProperties = {
     fontSize: "3rem",
     fontWeight: "800",
     marginBottom: "40px",
