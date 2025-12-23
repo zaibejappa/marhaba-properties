@@ -23,7 +23,7 @@ import React from 'react';
     id: 4,
     title: "5 Marla Sakni Plot",
     location: "Bilmuqabil Zafar Bhoto jappa Petrolpump Bhawana",
-    price: "35 Lakh",
+    price: "10 Lakh",
 
   },
 ];

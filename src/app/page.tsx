@@ -26,7 +26,7 @@ const Myfunction= () => {}
 
       {/* Identity Line - Elegant Style */}
       <p style={{ 
-        fontSize: "1.5rem", 
+        fontSize: "1.4rem", 
         color: "#d6d9dfff", 
         maxWidth: "900px", 
         lineHeight: "2.6",
@@ -48,7 +48,7 @@ const Myfunction= () => {}
         boxShadow: "0 4px 6px rgba(150, 133, 133, 0.1)",
         maxWidth: "600px"
       }}>
-        <h2 style={{fontSize: "4.2rem", color: "#bae01eff", marginBottom: "10px" }}>
+        <h2 style={{fontSize: "2.1rem", color: "#bae01eff", marginBottom: "10px" }}>
           Premium Selection
         </h2>
         <p style={{ 
