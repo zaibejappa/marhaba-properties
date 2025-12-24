@@ -1,7 +1,7 @@
 
   "use client";
 import React from 'react';
-import { auth } from "../lib/firebase"; 
+import { auth } from "../app/components/lib/firebase";
 import { signInWithEmailAndPassword } from "firebase/auth";
 
 type Props = {

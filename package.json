@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "expo": "^54.0.30",
+    "firebase": "^12.7.0",
     "lucide-react": "^0.562.0",
     "next": "16.1.0",
     "react": "19.2.3",

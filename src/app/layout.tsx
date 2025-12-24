@@ -5,8 +5,10 @@ import "./globals.css"; //
 const Myfunction = () => {}
 export const metadata = {
   title: "My Website",
-  viewport: "width=device-width, initial-scale=1",
 };
+export const viewport = { "width=device-width, initial-Scale": 1,
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode; }) {
   return (
     <html lang="en">
