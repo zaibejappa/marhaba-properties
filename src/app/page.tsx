@@ -36,27 +36,8 @@ export default function MarhabaProperties() {
             allowFullScreen
           ></iframe>
         </div>
-      </section>
-
-      {/* Buttons Section */}
-      <section className="flex flex-col gap-4 items-center mt-10">
-        {/* WhatsApp Button - Size Updated */}
-        <a
-          href="https://wa.me/923452012466?text=Hi%20I%20am%20interested"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block bg-green-500 text-white px-5 py-3 text-xl font-bold rounded-full shadow-lg hover:bg-green-600 transition-all text-center w-full max-w-xs"
-        >
-          Contact on WhatsApp
-        </a>
-
-        {/* Call Button */}
-        <a
-          href="tel:+923452012466"
-          className="inline-block bg-blue-600 text-white px-5 py-3 text-xl font-bold rounded-full shadow-lg hover:bg-blue-700 transition-all text-center w-full max-w-xs"
-        >
-          Call Now
-        </a>
+    
+       
       </section>
     </main>
   );
