@@ -1,64 +1,54 @@
-import React from 'react'
 
-const Myfunction= () => {}
+      import React from "react";
 
-      export default function Home() {
+export default function Home() {
   return (
-    <main style={{ 
-      padding: "60px 20px", 
-      display: "flex", 
-      flexDirection: "column", 
-      alignItems: "center", 
-      textAlign: "center",
-      fontFamily: "Arial, sans-serif",
-      background: "linear-gradient(135deg, #0c1e25ff, #0c1f25ff, #16272fff)",
-      minHeight: "100vh",
-    }}>
-      {/* Main Heading */}
-      <h1 style={{ 
-        fontSize: "3rem", 
-        color: "#bae01eff", 
-        marginBottom: "20px",
-        fontWeight: "bold" 
-      }}>
-        Welcome to Marhaba Properties
+    <main className="p-4 space-y-6 bg-gray-100 min-h-screen">
+
+      <h1 className="text-2xl font-bold text-center">
+        Marhaba Properties
       </h1>
 
-      {/* Identity Line - Elegant Style */}
-      <p style={{ 
-        fontSize: "1.4rem", 
-        color: "#d6d9dfff", 
-        maxWidth: "900px", 
-        lineHeight: "2.6",
-        fontStyle: "italic",
-        borderBottom: "2px solid #e2e8f0",
-        paddingBottom: "20px",
-        marginBottom: "30px"
-      }}>
-        A trusted and reliable real estate agency for buying and selling property in Bhowana.
-      We provide transparent, secure  and professional services.
-      Quick registration, clear documentation and trustworthy deals are our identity.
-      </p>
-
-      {/* Highlighted Section - The Best Options */}
-      <div style={{
-        backgroundColor: "#2f279cff",
-        padding: "30px",
-        borderRadius: "15px",
-        boxShadow: "0 4px 6px rgba(150, 133, 133, 0.1)",
-        maxWidth: "600px"
-      }}>
-        <h2 style={{fontSize: "2.1rem", color: "#bae01eff", marginBottom: "10px" }}>
-          Premium Selection
-        </h2>
-        <p style={{ 
-          fontSize: "2.1rem", 
-          color: "#b3bbc5ff", 
-          fontWeight: "500" 
-        }}>
-          The best options are availabe accourding to your need and budget.
+      <div className="bg-white rounded-2xl p-4 shadow">
+        <p className="text-gray-600 text-sm text-center">
+          Trusted real estate services for buying & selling property.
         </p>
       </div>
+
+      {/* Business Intro */}
+      <section className="text-center">
+        <h2 className="text-xl font-bold mb-2">
+          Our Business Introduction
+      </h2>
+        <p className="text-gray-600">
+          Watch how we help you buy and sell property safely.
+        </p>
+      </section>
+
+      {/* Video */}
+      <section className="max-w-md mx-auto">
+        <iframe
+          className="w-full aspect-video rounded-xl shadow"
+          src="https://www.youtube.com/embed/ABC123XYZ"
+          title="Business Intro Video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      </section>
+
+      {/* WhatsApp Button */}
+      <section className="text-center">
+       <a
+  href="https://wa.me/923452012466?text=Hi%20I%20am%20interested"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block bg-green-500 text-white px-6 py-3 rounded-full"
+>
+  Contact on WhatsApp
+</a>
+      </section>
+
     </main>
   );
-};
+}
+  

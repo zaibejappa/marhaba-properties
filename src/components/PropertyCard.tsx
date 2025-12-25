@@ -14,6 +14,14 @@ export default function PropertyCard({ title, location, price }: Props) {
   
   const handleLogin = async () => {
     try {
+      <a
+  href={`https://wa.me/9234520466?text=Hi%2C%20I%20am%20interested%20in%20this%20property:%0A%0ATitle:%20${encodeURIComponent(title)}
+  %0ALocation:%20${encodeURIComponent(location)}%0APrice:%20${encodeURIComponent(price)}%0A%0APlease%20contact%20me.`}
+  target="_blank"
+  className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg font-semibold mt-3 inline-block"
+>
+  💬 WhatsApp About This Property
+</a>
       // Yahan '=' hona zaroori hai
       const user = await signInWithEmailAndPassword(auth, "admin@gmail.com", "123456");
       console.log("Logged in successfully:", user);
