@@ -15,7 +15,7 @@ export default function PropertyCard({ title, location, price }: Props) {
   const handleLogin = async () => {
     try {
       <a
-  href={`https://wa.me/9234520466?text=Hi%2C%20I%20am%20interested%20in%20this%20property:%0A%0ATitle:%20${encodeURIComponent(title)}
+  href={`https://wa.me/923452012466?text=Hi%2C%20I%20am%20interested%20in%20this%20property:%0A%0ATitle:%20${encodeURIComponent(title)}
   %0ALocation:%20${encodeURIComponent(location)}%0APrice:%20${encodeURIComponent(price)}%0A%0APlease%20contact%20me.`}
   target="_blank"
   className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg font-semibold mt-3 inline-block"
