@@ -1,35 +1,56 @@
-{
-  "name": "marhaba-properties",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint"
-}
-  },
-  "dependencies": {
-    "@capacitor/android": "^8.0.0",
-    "@capacitor/cli": "^8.0.0",
-    "@capacitor/core": "^8.0.0",
-    "@headlessui/react": "^2.2.9",
-    "@heroicons/react": "^2.2.0",
-    "expo": "^54.0.30",
-    "firebase": "^12.7.0",
-    "lucide-react": "^0.562.0",
-    "next": "16.1.0",
-    "react": "19.2.3",
-    "react-dom": "19.2.3"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.1.0",
-    "tailwindcss": "^4",
-    "typescript": "^5"
-  }
+import React from 'react';
+
+export default function MarhabaProperties() {
+  return (
+    <div className="min-h-screen bg-gray-50 flex flex-col items-center font-sans pb-20">
+      {/* Mobile-First Header */}
+      <header className="w-full max-w-md bg-blue-700 text-white p-6 shadow-lg rounded-b-3xl text-center">
+        <h1 className="text-2xl font-bold tracking-tight">Marhaba Properties</h1>
+        <p className="opacity-90 mt-1 text-xs">Apka apna ghar, hamari zimmedari</p>
+      </header>
+
+      {/* Main Content Section */}
+      <main className="w-full max-w-md p-5 space-y-4">
+        
+        {/* Card 1 */}
+        <div className="bg-white p-4 rounded-2xl shadow-sm border border-gray-100 flex items-center space-x-4">
+          <div className="bg-blue-100 p-3 rounded-full text-xl">🏠</div>
+          <div>
+            <h2 className="font-semibold text-gray-800 text-sm">Property Kharid-o-Faroakht</h2>
+            <p className="text-[10px] text-gray-500">Behtareen locations par plot aur ghar.</p>
+          </div>
+        </div>
+
+        {/* Card 2 */}
+        <div className="bg-white p-4 rounded-2xl shadow-sm border border-gray-100 flex items-center space-x-4">
+          <div className="bg-green-100 p-3 rounded-full text-xl">🔑</div>
+          <div>
+            <h2 className="font-semibold text-gray-800 text-sm">Kiraye ke Ghar</h2>
+            <p className="text-[10px] text-gray-500">Saste aur pur-sukoon makaan dhoondein.</p>
+          </div>
+        </div>
+
+        {/* Action Button */}
+        <button className="w-full bg-blue-600 active:bg-blue-800 text-white font-bold py-4 rounded-2xl shadow-md transition-all active:scale-95 text-md mt-4">
+          Rabta Karein (WhatsApp)
+        </button>
+      </main>
+
+      {/* Mobile Bottom Navigation */}
+      <nav className="fixed bottom-0 w-full max-w-md bg-white border-t flex justify-around py-3 shadow-lg">
+        <button className="flex flex-col items-center text-blue-600">
+          <span className="text-lg">🏠</span>
+          <span className="text-[10px]">Home</span>
+        </button>
+        <button className="flex flex-col items-center text-gray-400">
+          <span className="text-lg">🔍</span>
+          <span className="text-[10px]">Search</span>
+        </button>
+        <button className="flex flex-col items-center text-gray-400">
+          <span className="text-lg">👤</span>
+          <span className="text-[10px]">Profile</span>
+        </button>
+      </nav>
+    </div>
+  );
 }
