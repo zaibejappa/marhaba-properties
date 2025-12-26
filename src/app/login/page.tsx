@@ -23,7 +23,7 @@ export default function LoginPage() {
       } else {
         router.push("/properties"); // 👥 public user
       }
-    } catch (err: any) {
+    } catch (err: unknown) {
       setError("Email ya password ghalat hai");
     }
   };
