@@ -33,9 +33,9 @@ export default function Contact() {
         <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
           <Phone color="#0b3285ff" size={44} />
           <div>
-            <p style={{ fontSize: "2.0rem", margin: 0, fontWeight: "bold", color: "#e21b46ff" }}>Call Us</p>
-            <p style={{ fontSize: "2rem", margin: 0,color: "white" }}>0300-2012466</p>
-            <p style={{ fontSize: "2rem", margin: 0,color: "white" }}>0345-2012466</p>
+            <p style={{ fontSize: "1.0rem", margin: 0, fontWeight: "bold", color: "#e21b46ff" }}>Call Us</p>
+            <p style={{ fontSize: "1rem", margin: 0,color: "white" }}>0300-2012466</p>
+            <p style={{ fontSize: "1rem", margin: 0,color: "white" }}>0345-2012466</p>
           </div>
         </div>
 
@@ -43,7 +43,7 @@ export default function Contact() {
         <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
           <Mail color="#ea4335" size={44} />
           <div>
-            <p style={{ fontSize: "2.0rem", margin: 0, fontWeight: "bold", color: "#e21b46ff" }}>Email Adress</p>
+            <p style={{ fontSize: "1.0rem", margin: 0, fontWeight: "bold", color: "#e21b46ff" }}>Email Adress</p>
             <p style={{ fontSize: "1.6rem", margin: 0,color: "white" }}>marhabaproperties.pk@gmail.com</p>
         
              <p style={{ fontSize: "2.0rem", margin: 0, fontWeight: "bold", color: "#e21b46ff" }}>Address</p>

@@ -43,7 +43,7 @@ export default function AboutPage() {
       <h1 style={titleStyle}>About Us</h1>
       {/* 2. Main Content Card (Marhaba Properties Section) */}
       <div style={cardStyle}>
-        <h4 style={{fontSize: "2.1rem", color: "#bae01eff", marginBottom: "20px",fontWeight: "bold",}}>Welcome to Marhaba Properties</h4>
+        <h1 style={{fontSize: "1.1rem", color: "#bae01eff", marginBottom: "20px",fontWeight: "bold",}}>Welcome to Marhaba Properties</h1>
         <p style={{ lineHeight: "1.2", fontSize: "1.4rem", color: "#d1d6dbff" }}>
           Real estate market mein hum yahan aapki madad ke liye maujood hain. 
           Chahe aap apni dream shop khareedna chahte hon ya plots mein investment ka irada rakhte hon, 

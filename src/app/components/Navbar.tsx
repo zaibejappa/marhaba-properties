@@ -52,7 +52,7 @@ export default function Navbar() {
 
      {/* 2. Center Section (Brand Name + Links) */}
       <div style={{ flex: 2, textAlign: "center" }}>
-        <h1 style={{ color: "white", margin: "0 0 10px 0", fontSize: "3.6rem", fontWeight: "bold" }}>
+        <h1 style={{ color: "white", margin: "0 0 10px 0", fontSize: "1.6rem", fontWeight: "bold" }}>
           Marhaba Properties
         </h1>
         <div style={{ display: "flex", justifyContent: "center" }}>
