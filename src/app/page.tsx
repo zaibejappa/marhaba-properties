@@ -30,7 +30,7 @@ export default function MarhabaProperties() {
          <iframe
   loading="lazy"
   className="w-full aspect-video rounded-xl shadow-lg "
-          src="https://youtube.com/shorts/E4NsUzQXgY4?si=Xa7Eh-iLcgVuxN3j" // Apni sahi video ID yahan dalen
+          src="https://youtu.be/NuNJF9C3eKM?si=5DzyfmZbH8XBKJ1a" // Apni sahi video ID yahan dalen
             title="Business Intro Video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
