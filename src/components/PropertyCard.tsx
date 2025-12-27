@@ -53,5 +53,5 @@ export default function PropertyCard({ title, location, price }: Props) {
       </button>
     </div>
   );
-}
+};
    

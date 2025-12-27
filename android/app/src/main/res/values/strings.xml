@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">npx cap add android Marhaba properties</string>
-    <string name="title_activity_main">npx cap add android Marhaba properties</string>
+    <string name="app_name">marhaba-properties</string>
+    <string name="title_activity_main">marhaba-properties</string>
     <string name="package_name">com.marhaba.properties</string>
     <string name="custom_url_scheme">com.marhaba.properties</string>
 </resources>
